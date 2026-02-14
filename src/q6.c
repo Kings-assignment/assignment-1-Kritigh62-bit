@@ -12,7 +12,7 @@ int main ()
     // Calculate the area of rectangle//
     a = l * w ; 
     // Display the calculated output//
-    printf("The area of rectangle is %d", a);
+    printf("The area of rectangle is: %d\n", a);
     return 0;
 
 }

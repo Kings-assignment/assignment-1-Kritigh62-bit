@@ -5,11 +5,10 @@ int main()
     int x;
     printf("Enter a number:");
     scanf("%d", &x);
-    if (x % 3==0 || x % 5==0){
-        printf("The number is either multiple of 3 or 5.\n ");
+    int result;
+    result = x % 3==0 || x % 5==0 ;
+        printf(" The result is %d\n ", result);
 
-    } else {
-        printf("The number is not multiple of 3 or 5.\n");
-    }
+    
 return 0;
 }
